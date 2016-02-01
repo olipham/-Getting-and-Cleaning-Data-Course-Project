@@ -18,4 +18,5 @@ The R script, run_analysis.R, does the following:
 - Keep only those columns with mean and standard deviation measures ("mean()" and "std()").
 - Relabel activity codes with activity description.
 - Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+
 The end result is shown in the file tidy.txt.
