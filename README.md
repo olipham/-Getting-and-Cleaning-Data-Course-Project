@@ -1,15 +1,13 @@
-# -Getting-and-Cleaning-Data-Course-Project
+# Getting-and-Cleaning-Data-Course-Project
 
 This is the course project for the "Getting and Cleaning Data" Coursera course. 
 
 Initial setup:
-
-Download the dataset and save to working directory:
+- Download the dataset and save to working directory:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- Set the working directory in the "run_analysis.R" script.
 
-Set the working directory in the "run_analysis.R" script.
-
-The R script, run_analysis.R, does the following:
+The R script, "run_analysis.R", does the following:
 - Read the test and training data into R dataframe:
     - test: subject_test.txt, X_test.txt, Y_test.txt
     - train: subject_train.txt, X_train.txt, Y_train.txt
