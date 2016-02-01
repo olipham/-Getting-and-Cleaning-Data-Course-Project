@@ -7,7 +7,7 @@ This code book summarizes the resulting data fields in tidy.txt.
 - activity - The type of activity performed when the corresponding measurements were taken
 
 ## Measurements
-Measurements are the average per subject per activity.
+Measurements are the average per subject per activity. t= Time, f = Frequency
 
 - tBodyAccMeanX
 - tBodyAccMeanY
