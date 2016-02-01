@@ -47,8 +47,8 @@ names(act_desc) <- varNames
 
 # Group by subject and activity
 tidy_df <- act_desc %>%
-  group_by(subjectID, activity) %>%
-  summarise(mean()) 
+  group_by(subject, activity) %>%
+  summarise_each(funs(mean))
 
 # Write tidy dataset to txt file
 write.table(tidy_df, file = "tidy.txt", row.names = FALSE)
